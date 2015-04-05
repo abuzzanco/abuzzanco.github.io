@@ -42,18 +42,29 @@
   margin-top: 1em;
 }
 
-
+#header .headertext
+{
+  margin-bottom:16em;
+}
 
 #header h1
 {
   color: #fff;
   font-family: 'Press Start 2P', cursive;
   font-weight: 300;
-  font-size: 4.5 em;
+  font-size: 5.5em;
   line-height: 1;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 0.3em;
 }
+
+#header p
+{
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1.2em;
+}
+
 
 
 /* Grid
