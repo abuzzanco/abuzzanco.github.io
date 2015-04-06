@@ -87,7 +87,9 @@
   margin-bottom: 1.2em;
 }
 
-
+#footer li {
+  display:inline-block;
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
