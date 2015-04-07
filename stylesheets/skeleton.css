@@ -63,6 +63,13 @@
   display:inline-block;
 }
 
+#header nav ul li a {
+  color:#00000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:0.75em 2em;
+}
+
 #header .headertext
 {
   margin-top: 5em;
@@ -89,6 +96,13 @@
 
 #footer li {
   display:inline-block;
+}
+
+#footer li a{
+  color:#00000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:0.75em 2em;
 }
 
 /* Grid

@@ -53,10 +53,10 @@
 			<div class="nine columns">
 				<nav>
 					<ul>
-						<li><a href="#">Features</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Demo</a></li>
+						<li><a href="#features">Features</a></li>
+						<li><a href="#products">Products</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#demo">Demo</a></li>
 						<li><a href="#">Support</a></li>
 					</ul>
 				</nav>
@@ -87,9 +87,9 @@
 		</div>
 	</div>
 
-	<!-- Benefits
+	<!-- Features
 	================================================== -->
-	<div id="benefits">
+	<div id="features">
 		<div class="container">
 			<div class="twelve columns offset-by-two">
 				<h2>What can DATOW do?</h2>
@@ -111,6 +111,7 @@
 			</div>
 
 			<div class="one-third column">
+				<!--use "animated tada" for priceboxes?-->
 				<div class="pricebox">
 					<header>
 						<h3>Lite</h3>
@@ -208,15 +209,17 @@
 		</div>
 	</div>
 
-	<!-- Call to Action
+	<!-- Demo
 	================================================== -->
-	<div id="action">
+	<div id="demo">
 		<div class="container">
 			<div class="twelve columns offset-by-two">
 				<h2>Try us out!</h2>
 				<p>You can test drive DATOW today! Just enter your email address and/or phone number and we'll get back to you as soon as possible:</p>
 				<div class="container">
 					<div class="row">
+						<!-- Form for Demo (need to add action (.php) -->
+					<form action="" method="GET" name="demoform" autocomplete="on">
 						<div class="four columns alpha">
 							<input type="text" placeholder="Email address"/>
 						</div>
@@ -224,8 +227,20 @@
 							<input type="text" placeholder="Phone number"/>
 						</div>
 						<div class="four columns omega">
-							<button href="#" type="submit">Submit</button>	
+							<!--upon clicking submit, button grays out and displays "Submitted" - propably use JavaScript or JQuery:
+
+						    function ValidateEmail(mail)   
+    {  
+     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))  
+      {  
+        return (true)  
+      }  
+        alert("You have entered an invalid email address!")  
+        return (false)  
+    }  -->
+							<button href="#" type="submit" onclick="">Submit</button>	
 						</div>
+					</form>
 					</div>
 				</div>
 			</div>
@@ -248,7 +263,7 @@
 			</div>
 
 			<div class="two columns">
-				<a href="#"><img src="images/small_logo.png" alt="DATOW"/></a>
+				<a href="#header"><img src="images/small_logo.png" alt="DATOW"/></a>
 			</div>
 
 			<div class="two columns">
